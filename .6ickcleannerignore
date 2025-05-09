@@ -1,0 +1,7 @@
+# Daftar file/folder yang akan diabaikan oleh 6ickCleaner
+# Tambahkan 1 nama file/folder per baris
+
+Downloads
+important.docx
+*.mp4
+*.mkv
