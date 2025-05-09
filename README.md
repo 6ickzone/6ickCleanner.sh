@@ -1,8 +1,6 @@
-# 6ickCleanner
+![6ickCleanner Logo](https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/banner.png)
 
-![6ickCleanner Logo](https://raw.githubusercontent.com/6ickzone/6ickCleanner/master/banner.png)
-
-**6ickCleanner** — Mini cleanup tool untuk Termux dengan sentuhan hacker vibes ala 0x6ick.  
+**6ickCleanner** — Mini cleanup tool untuk Termux dengan sentuhan hemker vibes ala 0x6ick.  
 Optimalkan ruang, bersihkan cache, deteksi file besar, dan auto-update langsung dari GitHub.
 
 > Made with ✦ by [0x6ick](https://github.com/6ickzone)
@@ -25,11 +23,18 @@ Optimalkan ruang, bersihkan cache, deteksi file besar, dan auto-update langsung 
 # Masuk ke ~/bin dan download script
 mkdir -p ~/bin
 cd ~/bin
-curl -O https://raw.githubusercontent.com/6ickzone/6ickCleanner/master/6ickCleaner.sh
-chmod +x 6ickCleaner.sh
+curl -O https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/6ickCleanner.sh
+chmod +x 6ickCleanner.sh
 
 # Jalankan
-~/bin/6ickCleaner.sh
+~/bin/6ickCleanner.sh
+
+> ✦ Optional: Tambahkan ~/bin ke PATH di .bashrc atau .profile untuk bisa jalan langsung pakai 6ickCleanner.sh
+
+
+
+
+---
 
 ✦ Cara Pakai
 
@@ -47,10 +52,29 @@ Custom Clean = pilih manual
 
 Dry Run = lihat simulasi, aman tanpa hapus data
 
+
+
+---
+
+✦ Ignore List
+
+Kalau ada file/folder yang mau di-skip, buat file:
+
+~/.6ickcleaner-ignore
+
+Isi contoh:
+
+Downloads
+important.docx
+
+
+---
+
 ✦ Update Script
 
 Gunakan menu nomor 4 untuk cek versi baru.
 Script otomatis unduh & update jika ada versi terbaru di repo ini.
+
 
 ---
 
@@ -59,3 +83,13 @@ Script otomatis unduh & update jika ada versi terbaru di repo ini.
 🛠️ Author: 0x6ick
 
 📂 Repo: 6ickCleanner
+
+
+
+---
+
+✦ Lisensi
+
+MIT License
+
+---
