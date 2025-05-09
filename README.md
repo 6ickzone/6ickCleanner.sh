@@ -1,4 +1,4 @@
-![6ickCleanner Logo](https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/banner.png)
+![6ickCleanner Logo](https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/file_00000000cf1861f88c28b3e2bff941ba.png)
 
 **6ickCleanner** — Mini cleanup tool untuk Termux dengan sentuhan hemker vibes ala 0x6ick.  
 Optimalkan ruang, bersihkan cache, deteksi file besar, dan auto-update langsung dari GitHub.
