@@ -1,95 +1,86 @@
 ![6ickCleanner Logo](https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/file_00000000cf1861f88c28b3e2bff941ba.png)
 
-**6ickCleanner** — Mini cleanup tool untuk Termux dengan sentuhan hemker vibes ala 0x6ick.  
-Optimalkan ruang, bersihkan cache, deteksi file besar, dan auto-update langsung dari GitHub.
+# 6ickCleanner
+
+**6ickCleanner** — A lightweight cleanup tool for Termux, infused with hacker-style vibes by 0x6ick.  
+Optimize storage, clear caches, detect large files, and auto-update directly from GitHub.
 
 > Made with ✦ by [0x6ick](https://github.com/6ickzone)
 
 ---
 
-## ✦ Fitur Utama
-- Clean **pkg cache**, **pip cache**, **tmp**, dan **log** directory
-- Scan dan hapus file besar (>50MB)
-- Deteksi package yang jarang dipakai (30 hari)
-- Backup otomatis sebelum bersih-bersih
-- **Dry-run mode** (simulasi tanpa hapus beneran)
-- Auto-update langsung dari GitHub
+## ✦ Key Features
+
+- Clean **pkg cache**, **pip cache**, **tmp**, and **log** directories  
+- Scan and remove large files (>50MB)  
+- Detect rarely used packages (inactive for 30 days)  
+- Automatic backup before cleanup  
+- **Dry-run mode** (simulate cleanup without deleting files)  
+- Auto-update directly from GitHub  
 
 ---
 
-## ✦ Installasi
+## ✦ Installation
 
 ```bash
-# Masuk ke ~/bin dan download script
+# Navigate to ~/bin and download the script
 mkdir -p ~/bin
 cd ~/bin
 curl -O https://raw.githubusercontent.com/6ickzone/6ickCleanner.sh/refs/heads/main/6ickCleanner.sh
 chmod +x 6ickCleanner.sh
 
-# Jalankan
+# Run the script
 ~/bin/6ickCleanner.sh
 
-> ✦ Optional: Tambahkan ~/bin ke PATH di .bashrc atau .profile untuk bisa jalan langsung pakai 6ickCleanner.sh
-
-
-
+# ✦ Optional: Add ~/bin to your PATH in .bashrc or .profile
 
 ---
 
-✦ Cara Pakai
+✦ Usage
 
-Jalankan script lalu pilih menu:
+Run the script and choose from the menu:
 
-1) Full Clean
-2) Custom Clean
-3) Dry Run + Full Clean
-4) Check for Updates
-5) Exit
+1. Full Clean
+2. Custom Clean
+3. Dry Run + Full Clean
+4. Check for Updates
+5. Exit
 
-Full Clean = semua dibersihkan otomatis
+Full Clean: Performs a complete cleanup automatically
 
-Custom Clean = pilih manual
+Custom Clean: Allows manual selection of items to clean
 
-Dry Run = lihat simulasi, aman tanpa hapus data
-
+Dry Run: Safe simulation without deleting any data
 
 
 ---
 
 ✦ Ignore List
 
-Kalau ada file/folder yang mau di-skip, buat file:
-
+To skip specific files or folders during cleanup, create a file at:
 ~/.6ickcleaner-ignore
-
-Isi contoh:
-
-Downloads
+Example content:
+Downloads  
 important.docx
 
-
 ---
 
-✦ Update Script
+✦ Updating the Script
 
-Gunakan menu nomor 4 untuk cek versi baru.
-Script otomatis unduh & update jika ada versi terbaru di repo ini.
-
-
----
-
-✦ Credit
-
-🛠️ Author: 0x6ick
-
-📂 Repo: 6ickCleanner
-
+Use menu option 4 to check for updates.
+If a new version is available, it will be downloaded and installed automatically.
 
 
 ---
 
-✦ Lisensi
+✦ Credits
 
-MIT License
+Author: 0x6ick
+Repository: 6ickCleanner
 
+---
+
+✦ License
+
+This project is licensed under the MIT License.
 ---
